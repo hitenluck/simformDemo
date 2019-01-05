@@ -1,0 +1,8 @@
+
+export const IS_LOADING_DONE  = 'IS_LOADING_DONE  ';
+export const IS_LOGIN_DONE = 'IS_LOGIN_DONE';
+export const IS_REG_DONE = 'IS_REG_DONE';
+export const IS_USERLIST_LOADED = 'IS_USERLIST_LOADED';
+export const IS_ANY_ERROR = 'IS_ANY_ERROR';
+export const ACTION_IS_LOADING='ACTION_IS_LOADING';
+export const USER_LOGOUT='USER_LOGOUT';
