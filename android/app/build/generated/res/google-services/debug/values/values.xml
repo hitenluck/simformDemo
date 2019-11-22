@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">99779455364-mtte8o9otc998ak0m1lmfsgfrkftg9ca.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://samplechat-53522.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">99779455364</string>
+    <string name="google_api_key" translatable="false">AIzaSyBM_F8l0V9KhaObxrEusYBJBy0hkB89ofc</string>
+    <string name="google_app_id" translatable="false">1:99779455364:android:53c48b064862d6b5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBM_F8l0V9KhaObxrEusYBJBy0hkB89ofc</string>
+    <string name="google_storage_bucket" translatable="false">samplechat-53522.appspot.com</string>
+    <string name="project_id" translatable="false">samplechat-53522</string>
+</resources>
