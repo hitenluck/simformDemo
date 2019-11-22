@@ -1,0 +1,4 @@
+sudo systemctl start mongodb
+sudo systemctl status mongodb
+
+sudo systemctl enable mongodb
