@@ -19,7 +19,7 @@ import { connect } from 'react-redux';
 import firebaseService from '@utils/firebase'
 import NotifService from '@app/Notifications/NotifService';
 import Loader from '@components/Loader'
-const ITEM_HEIGHT = 50
+const ITEM_HEIGHT = 80
 
 class OneToOneChat extends Component{
   constructor(props){

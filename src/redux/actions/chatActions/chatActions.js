@@ -40,7 +40,7 @@ export function oneToOneChatLoading (receiverId) {
     let chatId= currentUser.uid > receiverId?`${currentUser.uid}-${receiverId}`:`${receiverId}-${currentUser.uid}`  //creating chat id for both the users message
     let FIREBASE_ONE_TO_ONE_CHAT = firebaseService.database().ref().child("chat/" + chatId);
     FIREBASE_ONE_TO_ONE_CHAT.limitToLast(FIREBASE_REF_MESSAGES_LIMIT).on('value', (snapshot) => {
-      //console.warn(snapshot);
+      console.warn(snapshot);
       dispatch(actionChatLoaded(snapshot.val()))
     }, (errorObject) => {
       dispatch(actionChatMessageError(errorObject.message))
